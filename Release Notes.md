@@ -5,10 +5,14 @@
 
 ### ✨ New features
 
+* `ListItemSubtitle` is a new view that copies its behavior from the deprecated `MenuListSubtitle`.
+* `ListText` has a new icon and subtitle parameter.
+* `ListTextContent` is a new view that just renders the content of a `ListText`.
 * `View+NavigationTitleView` is a new extension that lets you set any view as the navigation title.
 
 ### 🗑 Deprecations
 
+* `BlurView` and `View+Blur` is deprecated. Use the native material approach instead.
 * `Presentation/Toast` has been deprecated. Use the new [SystemNotification](https://github.com/danielsaidi/SystemNotification) library instead.
 * `View+Alert` `alert(context:)` has been renamed to `alert(_ :)`.
 * `View+FullScreenCover` `fullScreenCover(context:)` has been renamed to `fullScreenCover(_ :)`.
